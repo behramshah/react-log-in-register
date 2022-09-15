@@ -4,7 +4,7 @@ body{
     background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.form{
+.register {
     background-color: white;
     border-radius: 5px;
     width: 550px;
@@ -14,30 +14,30 @@ body{
     /* height: 600px; */
 }
 
-.form-body{
+.register .form-body{
     text-align: left;
     padding: 20px 10px;
 }
 
-.form-body > *{
+.register .form-body > *{
     padding: 5px;
 }
 
-.form__label{
+/* .form__label{
     width: 40%;
 }
 
 .form_input{
     width: 60%;
-}
+} */
 
-.footer{
+.register .footer{
     text-align: center;
 }
 
-input{
+.register input{
     position: absolute;
-    left: 500px;
+    left: 840px;
     width: 386px;
     height: 30px;
     border-radius: 5px;

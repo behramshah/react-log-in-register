@@ -36,7 +36,7 @@ const RegistrationForm = () => {
     
     return (
       <>
-            <div className="form">
+            <div className="form register">
                 <div className="form-body">
                     <div className="username">
                         <label className="form__label" for="firstName">First Name </label>
