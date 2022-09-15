@@ -1,3 +1,14 @@
+
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div>Home</div>
+  )
+}
+
+export default Home
+
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -25,3 +36,4 @@ export default function ButtonAppBar() {
     </Box>
   );
 }
+
