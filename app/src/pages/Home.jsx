@@ -4,6 +4,9 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import { Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 export default function ButtonAppBar() {
   return (
@@ -11,15 +14,16 @@ export default function ButtonAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Home
+            <Link to="/">Home</Link>
           </Typography>
-          <Button color="inherit">Login</Button>
-          <Button color="inherit">Register</Button>
+          <Button color="inherit"><Link to="/auth">Login</Link></Button>
+          <Button color="inherit"><Link to="/register">Register</Link></Button>
           <Button color="inherit" sx={{ display: "none" }}>
             Log Out
           </Button>
         </Toolbar>
       </AppBar>
+      <Outlet />
     </Box>
   );
 }
